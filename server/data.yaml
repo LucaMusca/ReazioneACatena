@@ -1,0 +1,29 @@
+QDCP:
+  - gioco: |
+      Quando
+      Dove
+      Come
+      Perchè
+
+catene:
+  - catena: |
+      Una
+      Tira
+      L'altra
+    zip: |
+      
+intesa: |
+    uno
+    due
+    tre
+    quattro
+
+ultima:
+  - |
+    uno
+    due
+    tre
+  - |
+    uno
+    due
+    tre

@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBmkBnTI6oR6GTQOkqj0IaWZcTPTCS7QeQ",
+            authDomain: "reazione-a-catena.firebaseapp.com",
+            databaseURL: "https://reazione-a-catena-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "reazione-a-catena",
+            storageBucket: "reazione-a-catena.appspot.com",
+            messagingSenderId: "156551337085",
+            appId: "1:156551337085:web:246e5ffb98dcae7e384d14"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="server.js"></script>
+    <script src="js-yaml.js"></script>
+    <script src="_classifica.js"></script>
+    <title>Reazione a Catena</title>
+
+</head>
+
+<body>
+<div id="schermata-iniziale">
+    <h1>Giocatori</h1>
+    <div id="lista-giocatori">
+    </div>
+    <button onclick="daSchermataInizialeAGioco()">Gioca!</button>
+</div>
+</body>
+
+</html>

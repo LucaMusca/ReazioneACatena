@@ -1,0 +1,28 @@
+html{
+    background: #c2c2c2;
+}
+
+body{
+}
+
+.container{
+    margin: auto;
+}
+
+.field{
+    margin: 20px auto;
+    text-transform: uppercase;
+    border-radius:50px 10px;
+    padding: 0 30px;
+    background: #0589fa;
+    color: white;
+    font-family: Calibri, serif;
+    text-shadow: 8px 0 3px #000000;
+    font-size: 100px;
+    scale: 1;
+    position: relative;
+}
+
+.big{
+    width: 1000px;
+}

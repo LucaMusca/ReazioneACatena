@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        // NOTE - INCLUDE YOUR FIREBASE CONFIG HERE FOR ANYTHING TO WORK:
+        const firebaseConfig = {
+            apiKey: "AIzaSyBmkBnTI6oR6GTQOkqj0IaWZcTPTCS7QeQ",
+            authDomain: "reazione-a-catena.firebaseapp.com",
+            databaseURL: "https://reazione-a-catena-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "reazione-a-catena",
+            storageBucket: "reazione-a-catena.appspot.com",
+            messagingSenderId: "156551337085",
+            appId: "1:156551337085:web:246e5ffb98dcae7e384d14"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="client.js"></script>
+    <title></title>
+
+</head>
+
+<body>
+<div id="login">
+    <div>
+        <label for="player-name">Your Name</label>
+        <input id="player-name" maxlength="10" type="text" />
+    </div>
+    <div>
+        <button id="button-ok">Enter</button>
+    </div>
+</div>
+<button id="big-button" onclick="big_click()">Clicca</button>
+</body>
+
+</html>
